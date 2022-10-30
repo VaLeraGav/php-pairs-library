@@ -1,7 +1,7 @@
 test:
 	./vendor/bin/phpunit tests
 
-tests --testdox:
+test-dox:
 	./vendor/bin/phpunit tests --testdox
 
 lint:
