@@ -4,17 +4,10 @@ namespace App\HtmlTags;
 
 //require_once '../src/Pairs.php';
 //require_once '../src/Lists.php';
+//require_once '../src/HtmlTags.php';
 
-use function Php\Pairs\Data\Lists\l;
-use function Php\Pairs\Data\Lists\head;
-use function Php\Pairs\Data\Lists\tail;
-use function Php\Pairs\Data\Lists\cons;
-use function Php\Pairs\Data\Lists\reverse;
-use function Php\Pairs\Data\Lists\isEmpty;
-use function Php\Html\Tags\HtmlTags\getName;
-use function Php\Html\Tags\HtmlTags\getValue;
-use function Php\Html\Tags\HtmlTags\node;
-use function Php\Html\Tags\HtmlTags\is;
+use function Php\Pairs\Data\Lists\ {l, head, tail, cons, reverse, isEmpty};
+use function Php\Html\Tags\HtmlTags\ {getName, getValue, node, is, make, append, toString as htmlToString};
 
 function map($dom, callable $func)
 {
@@ -79,6 +72,6 @@ $dom3 = append($dom2, node('p', 'is a lisp'));
 //    return $element;
 //});
 
-// htmlToString(mirror($dom3));
+htmlToString(mirror($dom3));
 // <h1>emehcs</h1>
 // <p>psil a si</p>

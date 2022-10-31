@@ -25,9 +25,9 @@
       "src/HtmlTags.php",
       "lessons/02_RepresentationOfSequences.php",
       "lessons/03_Markup.php",
-      "lessons/07_standardInterfaces.php",
-      "lessons/05_filtrationOfLists.php",
       "lessons/04_expressionOfLists.php",
+      "lessons/05_filtrationOfLists.php",
+      "lessons/07_standardInterfaces.php",
       "lessons/08_ierarchicalStructures.php",
       "lessons/06_convert.php"
     ],
